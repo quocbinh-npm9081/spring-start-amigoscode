@@ -1,18 +1,16 @@
 package amigoscode.dev.amigoscode.Entity;
-
 import jakarta.persistence.*;
-
-import javax.annotation.processing.Generated;
 import java.time.LocalDate;
 @Entity
 @Table
 public class Student {
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "student_sequence")
     @SequenceGenerator(
         name = "student_sequence",
-            sequenceName = "student_sequence",
-            allocationSize = 1
+        sequenceName = "student_sequence",
+        allocationSize = 1
     )
     private Long id;
     private String name;
