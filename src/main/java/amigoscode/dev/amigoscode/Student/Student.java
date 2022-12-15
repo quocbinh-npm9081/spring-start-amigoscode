@@ -1,10 +1,9 @@
-package amigoscode.dev.amigoscode.Entity;
+package amigoscode.dev.amigoscode.Student;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 @Entity
 @Table
 public class Student {
-
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "student_sequence")
     @SequenceGenerator(

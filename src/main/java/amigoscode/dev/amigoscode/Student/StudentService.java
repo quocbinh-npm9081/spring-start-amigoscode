@@ -1,12 +1,8 @@
-package amigoscode.dev.amigoscode.Services;
+package amigoscode.dev.amigoscode.Student;
 
-import amigoscode.dev.amigoscode.Entity.Student;
-import amigoscode.dev.amigoscode.Repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 
 @Service
